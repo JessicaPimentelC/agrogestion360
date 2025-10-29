@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgroGestión 360</title>
+  <style>
+    :root{--accent:#2f8f4a;--muted:#6b7280;--bg:#f7faf7;font-family:Inter, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Segoe UI", sans-serif}
+    html,body{height:100%;margin:0;background:var(--bg);color:#111}
+    .container{max-width:950px;margin:36px auto;padding:28px;background:white;border-radius:12px;box-shadow:0 8px 24px rgba(22,28,37,0.06)}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:68px;height:68px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6fb96b);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin-top:8px}
+    section{margin-top:22px}
+    h2{color:var(--accent);margin-bottom:8px}
+    ul{margin:8px 0 0 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{padding:12px;border-radius:10px;background:#fcfffb;border:1px solid #eef6ec}
+    footer{margin-top:28px;color:var(--muted);font-size:0.9rem;text-align:center}
+    @media (max-width:480px){.container{margin:18px;padding:16px}.logo{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">AG</div>
+      <div>
+        <h1>AgroGestión 360 – Plataforma integral para la planificación, control y modernización de la producción agrícola</h1>
+        <p class="lead">Aplicación móvil y web destinada a fortalecer la productividad, sostenibilidad y rentabilidad de los pequeños y medianos campesinos colombianos.</p>
+      </div>
+    </header>
+    <section>
+      <h2>Objetivo</h2>
+      <p>
+        La iniciativa busca aprovechar la tecnología para mejorar la gestión financiera, técnica y comercial del sector agrícola, integrando herramientas digitales accesibles que permitan al agricultor llevar control de sus cultivos, sus gastos, y su conexión con el mercado.
+      </p>
+      <p>
+        AgroGestión 360 nace como respuesta a la necesidad de modernizar el campo colombiano mediante soluciones que promuevan la innovación rural, el aprendizaje continuo y la inclusión digital, impulsando el desarrollo económico y social del sector agropecuario.
+      </p>
+    </section>
+    <section>
+      <h2>2. Elementos que intervienen en el software</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>2.1 Usuarios</h3>
+          <ul>
+            <li><strong>Campesinos y agricultores:</strong> usuarios principales que gestionan sus cultivos y finanzas.</li>
+            <li><strong>Asesores agrícolas:</strong> profesionales que orientan y capacitan.</li>
+            <li><strong>Compradores:</strong> restaurantes, tiendas, ferias y consumidores interesados.</li>
+            <li><strong>Administradores:</strong> encargados del mantenimiento, soporte y control de datos.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>2.2 Componentes del sistema</h3>
+          <ul>
+            <li><strong>Interfaz móvil y web:</strong> diseño amigable, accesible y adaptable.</li>
+            <li><strong>Base de datos:</strong> almacenamiento de usuarios, cultivos, gastos, clima y precios.</li>
+            <li><strong>Módulos funcionales:</strong> Finanzas rurales, Producción agrícola, Clima e inteligencia agrícola, Capacitación, Conexión comercial.</li>
+            <li><strong>Servidor backend:</strong> gestiona las solicitudes, seguridad y autenticación.</li>
+            <li><strong>Integraciones externas:</strong> IDEAM, Agrosavia, SENA, APIs de precios agrícolas, sensores IoT.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>2.3 Recursos tecnológicos</h3>
+          <ul>
+            <li><strong>Lenguaje de programación:</strong> Python, JavaScript o Flutter.</li>
+            <li><strong>Base de datos:</strong> PostgreSQL o Firebase.</li>
+            <li><strong>Herramientas de IA:</strong> TensorFlow / OpenAI API (para detección de plagas o análisis predictivo).</li>
+            <li><strong>Servicios de nube:</strong> AWS / Google Cloud.</li>
+          </ul>
+        </div>
+      </div>
+    <section>
+      <h2>3. Justificación del proyecto</h2>
+      <p>
+        El campo colombiano enfrenta desafíos como el bajo acceso a tecnología, la falta de educación técnica rural y la dependencia de intermediarios para comercializar sus productos. AgroGestión 360 busca cerrar esa brecha digital y ofrecer a los campesinos una herramienta que les permita organizar, aprender e innovar desde su propio entorno.
+      </p>
+      <p>
+        El uso de esta aplicación contribuirá a mejorar los ingresos, reducir pérdidas, proteger los recursos naturales y aumentar la competitividad del agricultor colombiano.
+      </p>
+    </section>
+    <section>
+      <h2>4. Alcance del software</h2>
+      <p>
+        - Registrar cultivos, gastos e ingresos.<br>
+        - Recibir alertas sobre riego, abono y clima.<br>
+        - Identificar plagas mediante imágenes.<br>
+        - Consultar precios del mercado.<br>
+        - Acceder a cursos y asesorías.<br>
+        - Participar en ferias y redes campesinas.<br>
+      </p>
+    </section>
+        <section>
+      <h2>5. Diagrama del proceso</h2>
+      <p>
+        En el siguiente diagrama se presenta el proceso del aplicativo, iniciando desde el registro del usuario en el sistema hasta elementos de gestión, informes y alertas.
+      </p>
+      <div>
+      <img src="https://drive.google.com/thumbnail?id=1vjL5Y58XPKvtId9YqBwt0xvCUN0H6PFt&sz=w1000" alt="Procesos" width="200" height="300">
+      </div>
+    </section>
+    <footer>
+      Documento generado: AgroGestión 360 — Resumen ejecutivo.
+    </footer>
+  </div>
+</body>
+</html>
